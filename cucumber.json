@@ -1,0 +1,118 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2024-07-31T13:24:10.896Z",
+        "line": 3,
+        "name": "Validate user is able to view after login",
+        "description": "",
+        "id": "logged-in-user-view;validate-user-is-able-to-view-after-login",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 7064636100,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User navigate to the Login page",
+            "match": {
+              "location": "com.automation.aaa.stepDefinition.HomePageSD.user_navigate_to_the_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 434845800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User successfully enters the log in details",
+            "match": {
+              "location": "com.automation.aaa.stepDefinition.LoginPageSD.user_successfully_enters_the_log_in_details()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 144158400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User should be able to view the Product category page",
+            "match": {
+              "location": "com.automation.aaa.stepDefinition.LoggedInPageSD.user_should_be_able_to_view_the_product_category_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Logged in User View",
+    "description": "",
+    "id": "logged-in-user-view",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/com/automation/aaa/features/LoggedIn.feature",
+    "tags": [ ]
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2024-07-31T13:24:18.581Z",
+        "line": 3,
+        "name": "Validate user is able to view after clicking on new Registration",
+        "description": "",
+        "id": "new-user-registration-view;validate-user-is-able-to-view-after-clicking-on-new-registration",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 7936381600,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User navigate to the Login page",
+            "match": {
+              "location": "com.automation.aaa.stepDefinition.HomePageSD.user_navigate_to_the_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 445968200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User clicks on new Registration button",
+            "match": {
+              "location": "com.automation.aaa.stepDefinition.LoginPageSD.user_clicks_on_new_registration_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 65595100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User should be able to view the Registration page",
+            "match": {
+              "location": "com.automation.aaa.stepDefinition.RegistrationPageSD.user_should_be_able_to_view_the_registration_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "New User Registration View",
+    "description": "",
+    "id": "new-user-registration-view",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/com/automation/aaa/features/NewUserRegistration.feature",
+    "tags": [ ]
+  }
+]
