@@ -64,6 +64,6 @@ https://youtu.be/kPhpJzlnUTs
 
 ### Allure Reports:
 
-![img.png](img.png)
+![Screenshot 2024-08-01 063828](https://github.com/user-attachments/assets/0f2f9abc-aa17-4245-a9a4-707d5685cb2b)
+![Screenshot 2024-08-01 063852](https://github.com/user-attachments/assets/ebf2187a-eab4-4eb3-9334-2633e8b9de7f)
 
-![img_1.png](img_1.png)
