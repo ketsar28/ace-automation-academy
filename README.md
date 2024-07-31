@@ -50,13 +50,9 @@ When a user doesnot a login page neither he wants to register himself but he wan
 ## Test Requirements
 The tests are validated by navigation 
 
-## Tutorial video - with step by step approach
-https://youtu.be/kPhpJzlnUTs
-
-
 
 ### Local
-* [Java 11 SDK](https://www.oracle.com/au/java/technologies/javase/jdk11-archive-downloads.html)
+* [Java 17 SDK](https://www.oracle.com/java/technologies/javase/jdk17-archive-downloads.html)
 * [Maven](https://maven.apache.org/download.cgi)
 * [ChromeDriver](https://chromedriver.chromium.org/downloads)
 
@@ -65,5 +61,6 @@ https://youtu.be/kPhpJzlnUTs
 ### Allure Reports:
 
 ![Screenshot 2024-08-01 063828](https://github.com/user-attachments/assets/0f2f9abc-aa17-4245-a9a4-707d5685cb2b)
+
 ![Screenshot 2024-08-01 063852](https://github.com/user-attachments/assets/ebf2187a-eab4-4eb3-9334-2633e8b9de7f)
 
